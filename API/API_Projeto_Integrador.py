@@ -7,7 +7,7 @@ from PIL import Image
 import streamlit.components.v1 as components
 import streamlit as st
 
-model = joblib.load(open(os.path.join('model/model.pkl'),"rb"))
+os.listdir()
 
 st.set_page_config(page_title="IMDS Team", page_icon="🎥")
 
