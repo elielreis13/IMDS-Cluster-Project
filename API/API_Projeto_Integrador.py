@@ -11,7 +11,7 @@ st.set_page_config(page_title="IMDS Team", page_icon="🎥")
 
 image = Image.open('static/structure.jpg')
 
-st.sidebar.image('static/structure.jpg', use_column_width=True )
+st.sidebar.image(image, use_column_width=True )
 st.sidebar.title('Menu')
 pagSelecionada = st.sidebar.selectbox('Escolha uma seção',['Home', 'Arquitetura & Deploy do Projeto', 'EDA', 'Modelo', 'Próximos Passos', 'Equipe e Agradecimentos'])
 
