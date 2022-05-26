@@ -9,7 +9,7 @@ import streamlit as st
 
 st.set_page_config(page_title="IMDS Team", page_icon="🎥")
 
-st.sidebar.image('static/structure.jpg', use_column_width=True )
+st.sidebar.image(r'static/structure.jpg', use_column_width=True )
 st.sidebar.title('Menu')
 pagSelecionada = st.sidebar.selectbox('Escolha uma seção',['Home', 'Arquitetura & Deploy do Projeto', 'EDA', 'Modelo', 'Próximos Passos', 'Equipe e Agradecimentos'])
 
