@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 import streamlit as st
 
 st.set_page_config(page_title="IMDS Team", page_icon="🎥")
-print(os.path)
+print(os.listdir())
 
 image = Image.open('static/structure.jpg')
 
