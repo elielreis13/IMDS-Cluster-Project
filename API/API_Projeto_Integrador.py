@@ -4,7 +4,6 @@ from flask import Flask, request, render_template, make_response
 import joblib
 import pandas as pd
 from PIL import Image
-
 import streamlit.components.v1 as components
 import streamlit as st
 
