@@ -7,8 +7,6 @@ from PIL import Image
 import streamlit.components.v1 as components
 import streamlit as st
 
-os.listdir()
-
 st.set_page_config(page_title="IMDS Team", page_icon="🎥")
 
 st.sidebar.image('./static/rf team2.png', use_column_width=True )
