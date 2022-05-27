@@ -44,7 +44,7 @@ elif pagSelecionada == 'EDA':
 
     st.title("Análise Exploratória dos dados")
 
-    components.iframe("https://app.powerbi.com/view?r=eyJrIjoiZjE1Y2FhOTMtMzJlOS00ZTgyLThhMjQtMWRjMjNiZGFlOWE1IiwidCI6IjNjZDM5YWMyLWViN2EtNDU5Ny1iNGFmLTc1Nzg2ZmE2YjQzYiJ9&pageName=ReportSectionbe9ea005b38a32ab0647", width=600, height=400)
+    components.iframe("https://app.powerbi.com/view?r=eyJrIjoiZjE1Y2FhOTMtMzJlOS00ZTgyLThhMjQtMWRjMjNiZGFlOWE1IiwidCI6IjNjZDM5YWMyLWViN2EtNDU5Ny1iNGFmLTc1Nzg2ZmE2YjQzYiJ9", width=600, height=400)
 
 elif pagSelecionada == 'Modelo':
 
