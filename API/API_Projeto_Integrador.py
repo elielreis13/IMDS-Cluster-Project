@@ -26,11 +26,8 @@ if pagSelecionada == 'Home':
     st.markdown("Construir um modelo agrupar os filmes com caracteristicas similares onde se torna extremamente útil para a empresa, pois ela pode planejar adequadamente sua estratégia de comunicação e serviço para alcançar esses consumidores e otimizar seu modelo de negócios, aumentando a receita.")  
        
     st.header("Repositório do Projeto:")
-    st.markdown("● [Análise Exploratória](https://github.com/Chitolina/RandomForestTeam/tree/main/EDA)")     
-    st.markdown("● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)")  
-    st.markdown("● [Modelo Clusterizador](https://github.com/Chitolina/RandomForestTeam/blob/main/EDA/Funcao%20de%20Custo%20e%20Selecao%20de%20Modelo.ipynb)")
-    st.markdown("● [Dashboard BI](https://github.com/Chitolina/RandomForestTeam/tree/main/BI_RANDOMF)")
-    st.markdown("● [Apresentação](https://github.com/webercg/Health-Insurance-Cross-Sell-Prediction)")
+    st.markdown("● [GitHub](https://github.com/elielreis13/imds_projeto_integrador)")     
+
 
 elif pagSelecionada == 'Arquitetura & Deploy do Projeto':
 
